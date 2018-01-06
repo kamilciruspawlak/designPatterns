@@ -1,0 +1,1 @@
+Singleton - (anty) wzorzec projektowy. Klasa ma zasiêg globalny, ale mo¿e istnieæ tylko jedna instancja tej klasy. Dokonujemy tego za pomoc¹ nadania konstruktorowi klasy parametru private.
