@@ -12,8 +12,8 @@ namespace DecoratorPattern
         static void Main(string[] args)
         {
 
-            var CheryPie = new CherryDecorator(new CakeBase());
-            CheryPie.DescribeYourself();
+            var CherryPie = new CherryDecorator(new CakeBase());
+            CherryPie.DescribeYourself();
 
 
             var TurboPie = new CherryDecorator(new RaspberriesDecorator(new PastryBase()));
